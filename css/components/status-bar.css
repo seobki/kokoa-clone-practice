@@ -3,6 +3,9 @@
   justify-content: center;
   padding: 5px 3px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
 .status-bar:first-child span {
