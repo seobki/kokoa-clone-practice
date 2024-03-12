@@ -3,7 +3,7 @@
   justify-content: center;
   padding: 5px 3px;
   font-weight: bold;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0px;
 }
