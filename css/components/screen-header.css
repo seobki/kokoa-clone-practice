@@ -14,3 +14,17 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons span i:hover {
+  cursor: pointer;
+  animation: rotateIcon 1s ease-in-out infinite;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
