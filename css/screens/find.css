@@ -92,8 +92,24 @@
   font-weight: bold;
 }
 
+.open-post__photo {
+  position: relative;
+}
+
 .open-post__photo img {
   width: 120px;
   height: 120px;
   border-radius: 10px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 65px;
+  padding: 6px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
